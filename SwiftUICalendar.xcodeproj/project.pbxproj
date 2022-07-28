@@ -14,6 +14,9 @@
 		D6C6E0AB2892B5FB00880973 /* SwiftUICalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6E0AA2892B5FB00880973 /* SwiftUICalendarTests.swift */; };
 		D6C6E0B52892B5FB00880973 /* SwiftUICalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6E0B42892B5FB00880973 /* SwiftUICalendarUITests.swift */; };
 		D6C6E0B72892B5FB00880973 /* SwiftUICalendarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6E0B62892B5FB00880973 /* SwiftUICalendarUITestsLaunchTests.swift */; };
+		D6C6E0C42892B66700880973 /* DateGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6E0C32892B66700880973 /* DateGate.swift */; };
+		D6C6E0C62892B76900880973 /* DateScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6E0C52892B76900880973 /* DateScrollerView.swift */; };
+		D6C6E0C82892B9D300880973 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6E0C72892B9D300880973 /* CalendarHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		D6C6E0B02892B5FB00880973 /* SwiftUICalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C6E0B42892B5FB00880973 /* SwiftUICalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICalendarUITests.swift; sourceTree = "<group>"; };
 		D6C6E0B62892B5FB00880973 /* SwiftUICalendarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICalendarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6C6E0C32892B66700880973 /* DateGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateGate.swift; sourceTree = "<group>"; };
+		D6C6E0C52892B76900880973 /* DateScrollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateScrollerView.swift; sourceTree = "<group>"; };
+		D6C6E0C72892B9D300880973 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				D6C6E0992892B5F800880973 /* SwiftUICalendarApp.swift */,
 				D6C6E09B2892B5F800880973 /* ContentView.swift */,
+				D6C6E0C52892B76900880973 /* DateScrollerView.swift */,
+				D6C6E0C72892B9D300880973 /* CalendarHelper.swift */,
+				D6C6E0C32892B66700880973 /* DateGate.swift */,
 				D6C6E09D2892B5FB00880973 /* Assets.xcassets */,
 				D6C6E09F2892B5FB00880973 /* Preview Content */,
 			);
@@ -257,6 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C6E0C82892B9D300880973 /* CalendarHelper.swift in Sources */,
+				D6C6E0C62892B76900880973 /* DateScrollerView.swift in Sources */,
+				D6C6E0C42892B66700880973 /* DateGate.swift in Sources */,
 				D6C6E09C2892B5F800880973 /* ContentView.swift in Sources */,
 				D6C6E09A2892B5F800880973 /* SwiftUICalendarApp.swift in Sources */,
 			);

@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var dateHolder: DateHolder
+    
     var body: some View {
-        Text("Hello, world!")
+        DateScrollerView()
+            .environmentObject(dateHolder)
             .padding()
     }
 }
