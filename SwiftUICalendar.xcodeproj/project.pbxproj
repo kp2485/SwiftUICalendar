@@ -17,6 +17,8 @@
 		D6C6E0C42892B66700880973 /* DateGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6E0C32892B66700880973 /* DateGate.swift */; };
 		D6C6E0C62892B76900880973 /* DateScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6E0C52892B76900880973 /* DateScrollerView.swift */; };
 		D6C6E0C82892B9D300880973 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6E0C72892B9D300880973 /* CalendarHelper.swift */; };
+		D6C6E0CA2892D16600880973 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6E0C92892D16600880973 /* CalendarCell.swift */; };
+		D6C6E0CC2892D80600880973 /* MonthStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6E0CB2892D80600880973 /* MonthStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		D6C6E0C32892B66700880973 /* DateGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateGate.swift; sourceTree = "<group>"; };
 		D6C6E0C52892B76900880973 /* DateScrollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateScrollerView.swift; sourceTree = "<group>"; };
 		D6C6E0C72892B9D300880973 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		D6C6E0C92892D16600880973 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		D6C6E0CB2892D80600880973 /* MonthStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 			children = (
 				D6C6E0992892B5F800880973 /* SwiftUICalendarApp.swift */,
 				D6C6E09B2892B5F800880973 /* ContentView.swift */,
+				D6C6E0CB2892D80600880973 /* MonthStruct.swift */,
+				D6C6E0C92892D16600880973 /* CalendarCell.swift */,
 				D6C6E0C52892B76900880973 /* DateScrollerView.swift */,
 				D6C6E0C72892B9D300880973 /* CalendarHelper.swift */,
 				D6C6E0C32892B66700880973 /* DateGate.swift */,
@@ -267,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6C6E0C82892B9D300880973 /* CalendarHelper.swift in Sources */,
+				D6C6E0CA2892D16600880973 /* CalendarCell.swift in Sources */,
+				D6C6E0CC2892D80600880973 /* MonthStruct.swift in Sources */,
 				D6C6E0C62892B76900880973 /* DateScrollerView.swift in Sources */,
 				D6C6E0C42892B66700880973 /* DateGate.swift in Sources */,
 				D6C6E09C2892B5F800880973 /* ContentView.swift in Sources */,
